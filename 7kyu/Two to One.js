@@ -1,4 +1,4 @@
-function longest(s1, s2) {
+function longest (s1, s2) {
   // Set 排重真的太棒了！！
   const set = new Set(s1 + s2)
   // Set -> 数组 -> 排序 -> 转成字符串

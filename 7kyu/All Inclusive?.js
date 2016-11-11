@@ -1,4 +1,4 @@
-function containAllRots(str, arr) {
+function containAllRots (str, arr) {
   const len = str.length
 
   for (let i of str) {
