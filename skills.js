@@ -26,3 +26,8 @@ let sortNumberAsString = numArr => numArr.sort((a, b) => {
 let sortNumberAsString2 = numArr => numArr.sort((a, b) => {
   return a.toString().localeCompare(b)
 })
+
+/**
+ * 快速获取从 0 到 9 的数组
+ */
+let zeroToNine = Array.from({ length: 10 }, (k, v) => v)
